@@ -1,7 +1,10 @@
 .header-hero {
 
     padding: 150px 0;
-    @include fullscreen-background('../../img/field-night.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-image: url('../../img/boatinwater.jpg');
+    background-size: cover;
 
     border-bottom: 1px solid $color-primary;
     //border-top: 8px solid $color-primary;
