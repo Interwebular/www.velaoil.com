@@ -58,3 +58,5 @@ $('a[href*=#]:not([href=#])').click(function () {
     }
 });
 // END: SMOOTH SCROLL TO
+
+$("nav").sticky({topSpacing:0});
