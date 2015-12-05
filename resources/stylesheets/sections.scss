@@ -1,0 +1,58 @@
+.section-split {
+
+    border-bottom: 1px solid $color-primary;
+
+    .image,
+    .content {
+        float: left;
+        width: 50%;
+
+        transition: width 300ms;
+    }
+
+    .image {
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &.bg-center {
+            background-position: center center;
+        }
+
+        &.bg-top {
+            background-position: top center;
+        }
+
+        &.bg-bottom {
+            background-position: bottom center;
+        }
+    }
+
+    .content {
+
+        h1 { text-align: center; }
+
+    }
+
+    .content-inner {
+        //padding: 40px 100px;
+        max-width: 500px;
+        margin: 60px auto;
+        padding: 20px;
+    }
+}
+
+
+@media screen and (max-width: 756px) {
+    .section-split {
+
+        .image,
+        .content {
+            float: left;
+            width: 100%;
+        }
+
+        .image {
+            height: 150px !important;
+        }
+    }
+}

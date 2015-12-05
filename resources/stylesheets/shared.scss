@@ -1,0 +1,54 @@
+@mixin fullscreen-background($image) {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url($image);
+    background-size: cover;
+}
+
+body {
+    background: $color-offwhite;
+    font-family: $font;
+    color: #333;
+}
+
+h1 {
+    margin: 0 0 0 0; padding: 0;
+    font-weight: 100;
+    color: $color-primary;
+}
+
+p {
+    letter-spacing: 1px;
+    line-height: 1.6em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.spacer {
+    height: 1px;
+    background: #333;
+    width: 170px;
+    margin: 20px auto;
+}
+
+.ctas {
+    text-align: center;
+}
+.btn-cta {
+    display: inline-block;
+    text-align: center;
+    padding: 15px 25px;
+    border: 1px solid $color-primary;
+    color: $color-primary;
+    margin: 5px;
+    text-transform: uppercase;
+    transition: background 150ms, color 150ms;
+
+    i { margin-right: 20px; }
+
+    &:hover {
+        background: $color-primary;
+        color: #fff;
+        text-decoration: none;
+    }
+}
