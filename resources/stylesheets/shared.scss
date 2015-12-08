@@ -61,3 +61,43 @@ p {
         text-decoration: none;
     }
 }
+
+.social-links {
+
+    a {
+        color: #333;
+        font-size: 2.5em;
+        margin: 5px;
+
+        &.facebook {
+            color: #3b5998;
+        }
+
+        &.twitter {
+            color: #00aced;
+        }
+
+        &.linked-in {
+            color: #007bb5;
+        }
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+#mc_embed_signup {
+    //background:#fff;
+    clear:left;
+    font-family: $font;
+    font-weight: 100;
+
+    input {
+        border: 1px solid darken($color-primary, 10%);
+    }
+    .button {
+        background: darken($color-primary, 10%);
+        &:hover { background: darken($color-primary, 15%); }
+    }
+}

@@ -1,11 +1,18 @@
 .header-hero {
 
+    position: relative;
+    height: 300px;
     padding: 75px 0;
     background-repeat: no-repeat;
     background-position: bottom center;
     background-image: url('../../img/header-bg.jpg');
     background-size: cover;
 
-    //border-bottom: 1px solid $color-primary;
-    //border-top: 8px solid $color-primary;
+
+    img {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 250px;
+    }
 }

@@ -35,7 +35,7 @@
 
     .content-inner {
         //padding: 40px 100px;
-        max-width: 500px;
+        max-width: 650px;
         margin: 60px auto;
         padding: 20px;
     }
@@ -55,4 +55,20 @@
             height: 150px !important;
         }
     }
+}
+
+
+.section-mailing-list {
+    background: $color-primary;
+    color: #fff;
+    padding: 50px 0;
+
+
+    input {
+        color: #000;
+
+    }
+    h1 { color: #fff; margin-bottom: 30px;}
+
+
 }
