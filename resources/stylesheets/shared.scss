@@ -66,7 +66,7 @@ p {
 
     a {
         color: #333;
-        font-size: 2.5em;
+        font-size: 3.5em;
         margin: 5px;
 
         &.facebook {
@@ -100,4 +100,5 @@ p {
         background: darken($color-primary, 10%);
         &:hover { background: darken($color-primary, 15%); }
     }
+    .mc-field-group { width: 100%; }
 }
